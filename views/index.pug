@@ -1,0 +1,37 @@
+extends ./partials/layout.pug
+
+block content
+    nav
+        h3.no-margin
+            img(src="/img/gdg-logo.png", alt="gdg logo") 
+            span Umuahia
+            
+    .container.speakers
+        h3 Event Speakers
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="https://pbs.twimg.com/profile_images/929647992847720454/Qrn28Fu3_400x400.jpg", alt="speaker", class="img-rounded")
+            h4 Emmanuel Mezie (@i_mezie)
+            p PHP Developer
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="https://pbs.twimg.com/profile_images/913804665103507458/iL_rwXY4_400x400.jpg", alt="speaker", class="img-rounded")
+            h4 Olushi Luqman (@codeshifu)
+            p Web/Android Developer
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="/img/1.jpg", alt="speaker", class="img-rounded")
+            h4 John Doe
+            p UX/UI Designer
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="/img/2.jpg", alt="speaker", class="img-rounded")
+            h4 John Doe
+            p UX/UI Designer
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="/img/3.jpg", alt="speaker", class="img-rounded")
+            h4 John Doe
+            p UX/UI Designer
+        .speaker.col-md-4.col-sm-6.col-xs-6
+            img(src="/img/4.jpg", alt="speaker", class="img-rounded")
+            h4 John Doe
+            p UX/UI Designer
+    
+        script.
+            //- TODO: 1 register serviceWorker

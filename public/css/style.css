@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', Arial, monospace;
+}
+
+p {
+    font-size: 14px;
+}
+
+nav {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #737373;
+}
+
+nav img {
+    margin-right: 10px;
+}
+
+.speaker {
+    margin: 20px 0;
+}
+
+.speaker img {
+    width:150px;
+    height: 150px;
+}
+.no-margin {
+    margin: 0;
+}
